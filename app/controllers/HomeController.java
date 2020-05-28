@@ -10,10 +10,6 @@ import views.html.*;
  */
 public class HomeController extends Controller {
 
-    public Result login() {
-        return ok(login.render("Hello"));
-    }
-
     /**
      * An action that renders an HTML page with a welcome message.
      * The configuration in the <code>routes</code> file means that
@@ -21,7 +17,7 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(index.render("Your new application is dead."));
+        return ok(index.render("Your new application is ready."));
     }
 
 }
