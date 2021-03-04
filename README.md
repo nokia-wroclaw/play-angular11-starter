@@ -12,7 +12,7 @@ ng build
 cd ..
 sbt run
 ```
-And then go to http://localhost:9000 to see the running web application (play framework).
+And then go to http://localhost:9000 to see the running backend application (play framework, still contains and serves some FE for demo purposes).
 To see angular part, go to http://localhost:9000/ng
 
 ## Controllers
