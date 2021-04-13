@@ -4,7 +4,7 @@ lazy val root = (project in file("."))
     name := """play-angular-starter""",
     version := "1.0-SNAPSHOT",
     maintainer := "mateusz.wronski@nokia.com",
-    scalaVersion := "2.13.4",
+    scalaVersion := "2.13.5",
     libraryDependencies ++= Seq(
       guice,
       // Test Database
