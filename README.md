@@ -50,3 +50,11 @@ To build and run the project:
 3. After the message `Server started, ...` displays, enter the following URL in a browser: <http://localhost:9000>
 
 The Play application responds: `Welcome to the Hello World Tutorial!`
+
+## sbt plugins
+
+We've some 'need-to-have' plugins.
+
+Try [Dependency update plugin](https://github.com/aiyanbo/sbt-dependency-updates) with `sbt dependencyUpdates` - will print out neat list of your project dependencies that have newer versions on maven/ivy/
+
+Using [Dependency graph](https://github.com/sbt/sbt-dependency-graph) is as simple as `sbt dependencyBrowseGraph` - to view all of your project dependencies in nice graphical form in your browser.
